@@ -1,0 +1,63 @@
+{
+  "_name_or_path": "mobilenet_v3_large_real_stock",
+  "architectures": [
+    "MobileNetV3ForFruitClassification"
+  ],
+  "num_classes": 16,
+  "id2label": {
+    "0": "Apple",
+    "1": "Avocado",
+    "2": "Banana",
+    "3": "Cherry",
+    "4": "Grape",
+    "5": "Kiwi",
+    "6": "Lemon",
+    "7": "Mango",
+    "8": "Orange",
+    "9": "Peach",
+    "10": "Pear",
+    "11": "Pineapple",
+    "12": "Pomegranate",
+    "13": "Strawberry",
+    "14": "Watermelon",
+    "15": "Background"
+  },
+  "label2id": {
+    "Apple": 0,
+    "Avocado": 1,
+    "Banana": 2,
+    "Cherry": 3,
+    "Grape": 4,
+    "Kiwi": 5,
+    "Lemon": 6,
+    "Mango": 7,
+    "Orange": 8,
+    "Peach": 9,
+    "Pear": 10,
+    "Pineapple": 11,
+    "Pomegranate": 12,
+    "Strawberry": 13,
+    "Watermelon": 14,
+    "Background": 15
+  },
+  "classes": [
+    "Apple",
+    "Avocado",
+    "Banana",
+    "Cherry",
+    "Grape",
+    "Kiwi",
+    "Lemon",
+    "Mango",
+    "Orange",
+    "Peach",
+    "Pear",
+    "Pineapple",
+    "Pomegranate",
+    "Strawberry",
+    "Watermelon",
+    "Background"
+  ],
+  "dataset_name": "FruitVision Expanded Real-Stock Dataset (1,200 images)",
+  "accuracy": "60.42%"
+}

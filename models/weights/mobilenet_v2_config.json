@@ -1,0 +1,65 @@
+{
+  "_name_or_path": "mobilenet_v2_fruits_robust",
+  "architectures": [
+    "MobileNetV2ForFruitClassification"
+  ],
+  "num_classes": 15,
+  "id2label": {
+    "0": "Apple",
+    "1": "Avocado",
+    "2": "Banana",
+    "3": "Cherry",
+    "4": "Grape",
+    "5": "Kiwi",
+    "6": "Lemon",
+    "7": "Mango",
+    "8": "Orange",
+    "9": "Peach",
+    "10": "Pear",
+    "11": "Pineapple",
+    "12": "Pomegranate",
+    "13": "Strawberry",
+    "14": "Watermelon"
+  },
+  "label2id": {
+    "Apple": 0,
+    "Avocado": 1,
+    "Banana": 2,
+    "Cherry": 3,
+    "Grape": 4,
+    "Kiwi": 5,
+    "Lemon": 6,
+    "Mango": 7,
+    "Orange": 8,
+    "Peach": 9,
+    "Pear": 10,
+    "Pineapple": 11,
+    "Pomegranate": 12,
+    "Strawberry": 13,
+    "Watermelon": 14
+  },
+  "classes": [
+    "Apple",
+    "Avocado",
+    "Banana",
+    "Cherry",
+    "Grape",
+    "Kiwi",
+    "Lemon",
+    "Mango",
+    "Orange",
+    "Peach",
+    "Pear",
+    "Pineapple",
+    "Pomegranate",
+    "Strawberry",
+    "Watermelon"
+  ],
+  "dataset_name": "Fruits-360 Expanded Multi-Variety Real Fruit Dataset",
+  "dataset_url": "https://github.com/Horea94/Fruit-Images-Dataset",
+  "robustness_features": [
+    "Dynamic Background Blending",
+    "Photometric Jitter",
+    "Multi-Variety Mapping"
+  ]
+}
